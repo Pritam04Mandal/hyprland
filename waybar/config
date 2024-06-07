@@ -30,6 +30,7 @@
 	], 
 
 "modules-right": [
+"network",
 	"hyprland/window", 
 	"tray", 
 	"battery", 

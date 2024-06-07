@@ -82,7 +82,7 @@
     
   "wlr/workspaces": {
     "format": "{name}",
-    //"format": "{name}: {icon}",
+    "format": "{name}: {icon}",
     "on-click": "activate",
     "all-outputs": true,
     "sort-by-number": true,
@@ -115,24 +115,24 @@
   },
   
   "hyprland/workspaces": {
-    "format": "{name}",
-    //"format": "{name}: {icon}",
+    //"format": "{name}",
+    "format": "{name}: {icon}",
     //"format": "{icon}",
     "show-special": false,
     "on-click": "activate",
     "all-outputs": true,
     "sort-by-number": true,
     "format-icons": {
-      "1": "main  ",
-      "2": "2  ",
-      "3": "3  ",
-      "4": "4  ",
-      "5": "5  ",
-      "6": "6  ",
-      "7": "7  ",
-      "8": "8  ",
-      "9": "9  ",
-      "10": " 10 ",
+      "1": "  ",
+      "2": "  ",
+      "3": "  ",
+      "4": "  ",
+      "5": "  ",
+      "6": "  ",
+      "7": "  ",
+      "8": "  ",
+      "9": "  ",
+      "10": "  ",
       "focused": "",
       "default": "",
     },
@@ -197,8 +197,8 @@
   "custom/power": {
     "format": "  ",
     "tooltip": false,
-    "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
-    "on-click-right": "~/.config/hypr/scripts/glassmorphism"
+    "on-click": "wlogout -b 2",
+    "on-click-right": "wlogout -b 2"
   },
     
   "network": {
@@ -281,7 +281,7 @@
     
   "custom/lock": {
     "format": "",
-    "on-click": "~/.config/hypr/scripts/lockscreen",
+    "on-click": "~/.config/hypr/scripts/lockscreen.sh",
     "tooltip": false,
   },
     
