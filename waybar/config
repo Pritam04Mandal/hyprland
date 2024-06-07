@@ -1,6 +1,6 @@
 {
 
-"include": "~/.config/hypr/waybar/modules",
+"include": "~/.config/waybar/modules",
 "layer": "top",
 //"mode": "dock",
 "exclusive": true,
@@ -24,7 +24,7 @@
 "modules-center": [
 	"custom/menu", 
 	"clock",
-	//"custom/cycle_wall",
+	"custom/cycle_wall",
 	"custom/light_dark",
 	"custom/lock", 	
 	], 
