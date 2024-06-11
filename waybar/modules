@@ -165,7 +165,7 @@
     "on-click-right": "~/.config/hypr/scripts/glassmorphism"
   },
     
-  "clock": {
+  "clock#simpleclock2": {
     //"format": "{:%I:%M %p}",
     "format": " {:%H:%M}",
     //"format-alt": " {:%I:%M %p   %Y, %d %B, %A}",
@@ -205,7 +205,7 @@
     "format": "{ifname}",
     "format-wifi": "{essid} ({signalStrength}%)  ",
     "format-ethernet": "",
-    "format-disconnected": "", //An empty format will hide the module.
+    "format-disconnected": "Disconnected", //An empty format will hide the module.
     "tooltip-format": "{ifname} via {gwaddr} ",
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname} ",

@@ -1,1 +1,1 @@
-swaybg -i ~/Pictures/wallpaper/wallpaper2.jpg -m fit
+swaybg -i ~/.config/hypr/wallpaper/wallpaper1.jpeg -m fit

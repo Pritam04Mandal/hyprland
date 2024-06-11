@@ -1,1 +1,1 @@
-swaylock -i "~/Pictures/wallpaper/wallpaper2.png"
+grim -t png "$HOME/.cache/lock/screenshot.png" && hyprlock
